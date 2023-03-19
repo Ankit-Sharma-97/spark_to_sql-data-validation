@@ -99,3 +99,4 @@ if (checksize_df[0][7] > 24):
 df.createOrReplaceTempView("df")
 df_cnt = df.count()
 print("Restating df_cnt: %s") % df_cnt
+..
